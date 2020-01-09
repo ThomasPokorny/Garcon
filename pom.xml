@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.tp.garcon</groupId>
+  <artifactId>Garcon</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Garcon</name>
+  
+  <dependencies>
+   
+	<dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    
+    <!-- Gson -->
+	<dependency>
+    	<groupId>com.google.code.gson</groupId>
+    	<artifactId>gson</artifactId>
+	</dependency>
+    
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+    	<groupId>org.springframework.security</groupId>
+    	<artifactId>spring-security-core</artifactId>
+    	<version>5.1.5.RELEASE</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>commons-net</groupId>
+    	<artifactId>commons-net</artifactId>
+    	<version>3.6</version>
+	</dependency>
+	
+	 <dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+	</dependency>
+	
+	<!-- jooq -->
+	<dependency>
+	    <groupId>org.jooq</groupId>
+	    <artifactId>jooq</artifactId>
+	    <version>3.11.8</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.jooq</groupId>
+	    <artifactId>jooq-meta</artifactId>
+	    <version>3.11.8</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.jooq/jooq-codegen -->
+	<dependency>
+	    <groupId>org.jooq</groupId>
+	    <artifactId>jooq-codegen</artifactId>
+	    <version>3.11.8</version>
+	</dependency>
+   
+   </dependencies>
+   
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.5.RELEASE</version>
+    </parent>
+    
+  
+</project>
